@@ -49,8 +49,8 @@ RAG-система с FastAPI и Telegram-ботом: гибридный retriev
 - **LLM (генерация, агент, верификатор):**
   - `LLM_PROVIDER=openrouter` (по умолчанию)
   - `LLM_MODEL=qwen/qwen3-next-80b-a3b-instruct`
-  - Поддерживаемые провайдеры: `openrouter`, `hf`, `deepseek`.
-  **Embedding model (dense retrieval):**
+  - Поддерживаемые провайдеры: `openrouter`, `hf`, `deepseek`
+- **Embedding model (dense retrieval):**
   - `EMBEDDING_MODEL=intfloat/multilingual-e5-large`
 - **Encoder для rerank (cross-encoder):**
   - `RERANKER_MODEL=qilowoq/bge-reranker-v2-m3-en-ru`
